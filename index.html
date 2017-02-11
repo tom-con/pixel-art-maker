@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="functions.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Lobster" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Pixel Art</title>
+</head>
+
+<body>
+  <header>Pixel Art by Tom C.</header>
+  <div id="all">
+
+    <div class="formio">
+      <form class="form">
+        Columns:<br>
+        <input type="text" name="columns"><br>Rows:<br>
+        <input type="text" name="rows"><br>Width of Pixel:<br>
+        <input type="text" name="width"><br>Height of Pixel:<br>
+        <input type="text" name="height"><br>
+      </form>
+      <button id="formB">Generate!</button>
+      <button id="formA">Reset!</button>
+      <div id="response"></div>
+      <!-- <button id="save">Save/Load</button> -->
+      <br>
+      <div class="saves">
+        <div class="saveitem"><button>Save1</button></div>
+        <div class="saveitem"><button>Save2</button></div>
+        <div class="saveitem"><button>Save3</button></div>
+        <div class="saveitem"><button>Save4</button></div>
+        <div class="saveitem"><button>Save5</button></div>
+        <div class="saveitem"><button>Save6</button></div>
+      </div>
+      <div class="loads">
+        <div class="loaditem"><button>Load1</button></div>
+        <div class="loaditem"><button>Load2</button></div>
+        <div class="loaditem"><button>Load3</button></div>
+        <div class="loaditem"><button>Load4</button></div>
+        <div class="loaditem"><button>Load5</button></div>
+        <div class="loaditem"><button>Load6</button></div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="board"></div>
+    </div>
+
+  </div>
+
+  <div class="dingo">
+    <div class="pallette"></div>
+    <br>
+    <input type="color" id="colorPick"><button id="apply">Apply Color to Brush</button>
+    <br>
+    <br>
+    <button id="randomC">Randomize Bottom Row</button>
+
+  </div>
+
+
+
+</body>
+
+</html>

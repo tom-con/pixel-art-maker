@@ -1,0 +1,57 @@
+#all {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container {
+  /*float:left;*/
+  margin: auto;
+  width: 700px;
+}
+.board {
+  float: left;
+}
+.formio {
+  float:left;
+  margin-top: 50px;
+  width: 300px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+.formio .form {
+  padding: 10px;
+}
+
+.dingo {
+  clear: both;
+  margin: auto;
+  text-align: center;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#colorPick {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+header {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 80px;
+}
+
+.saveitem, .loaditem {
+  margin: 2px;
+  height: 20px;
+  width: 70px;
+  background-color: rgb(207, 165, 246);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 6px;
+  float: left;
+}
+.loaditem {
+  background-color: rgb(164, 227, 144);
+}
