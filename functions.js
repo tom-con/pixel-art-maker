@@ -71,6 +71,7 @@ function makeDivs(columns, rows, width, height){
     //  console.log("Box "+j);
     }
     board.appendChild(row);
+
   }
   return itemsArr;
 }
@@ -102,8 +103,8 @@ function makePallette(palle){
       row.appendChild(box);
     }
     pallette.appendChild(row);
-  }
 
+  }
 }
 
 var chooseColor = function() {
@@ -137,6 +138,7 @@ var saveBoard = function(loader){
   }
   console.log(saveArr);
   localStorage.setItem(loader, JSON.stringify(saveArr));
+current.clicker = "";
 };
 
 var getBoard = function(){
@@ -147,6 +149,7 @@ var getBoard = function(){
   for(var i = 4; i < loadArr.length; i++){
     divs[i-4].style.backgroundColor = loadArr[i];
   }
+  current.clicker = "";
 };
 
 board.addEventListener("mousedown", applyColor);
