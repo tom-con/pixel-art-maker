@@ -9,11 +9,14 @@
 }
 .board {
   float: left;
+  width: 740px;
+  height: 490px;
+  border: 2px solid black;
 }
 .formio {
   float:left;
   margin-top: 50px;
-  width: 300px;
+  width: 250px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 }
@@ -39,6 +42,16 @@ header {
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size: 80px;
+}
+
+.last{
+  border: 1px solid red;
+}
+
+br {
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
 }
 
 .saveitem, .loaditem {
